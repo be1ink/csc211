@@ -16,4 +16,4 @@ xhello_world/
 !**/*.txt
 
 # Keep this file itself
-!.gitignore
+!.gitignorexhello_world/
