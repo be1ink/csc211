@@ -1,12 +1,19 @@
-# macOS
+# Always ignore this folder (even if it has .cpp/.h/.txt)
+xhello_world/
+
+# macOS noise
 .DS_Store
 
-# Allow only these tracked file types anywhere
+# Allowlist approach: ignore everything by default…
 *
+
+# …but keep directories so Git can traverse
+!*/
+
+# …and keep only these file types anywhere
 !**/*.cpp
 !**/*.h
 !**/*.txt
 
-# Still allow folders and the ignore file itself
+# Keep this file itself
 !.gitignore
-!*/
