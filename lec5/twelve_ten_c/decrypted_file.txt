@@ -1,0 +1,5 @@
+The quick brown fox jumps over the lazy dog.
+1234567890
+Symbols test: !@#$%^&*()_+-=[]{}|;':",.<>?/~`
+Newlines and tabs should also be preserved.
+	This line starts with a tab.

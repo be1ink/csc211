@@ -1,0 +1,9 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+\\\\\\\\\ CUSTOMER ORDER (FILE) /////////////////
+Item ID    Item Name      Quantity     Price     Total
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Subtotal: $0.00
+Tax (8.875%): $0.00
+Grand Total: $0.00
+--------------------------------------------------

@@ -1,0 +1,10 @@
+Program Author: Benjamin Link
+Author EMPLID: 21009239
+Program Sponsor: CSC 211 — 1300
+
+NumGen 17 Output File 4
+=======================
+Fibonacci series: 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 
+97 is a prime number.
+The GCD of 456 and 28 is 4.
+4! = 24
