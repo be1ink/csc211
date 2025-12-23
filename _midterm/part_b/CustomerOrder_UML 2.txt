@@ -1,0 +1,37 @@
++-----------------------------------------------------------+
+|                     CustomerOrder                         |
++-----------------------------------------------------------+
+| - ID_SIZE : static const int                              |
+|                                                           |
+| - Line                                                    |
+|   - id[ID_SIZE] : int                                     |
+|   - name : string                                         |
+|   - qty : int                                             |
+|   - price_each : double                                   |
+|   - line_total : double                                   |
+|   - accepted : bool                                       |
+|   - reason : string                                       |
+|                                                           |
+| - lines : vector<Line>                                    |
+| - KNOWN_IDS[5] : const int                                |
+| - KNOWN_NAMES[5] : const string                           |
+| - TAX_RATE : const double                                 |
++-----------------------------------------------------------+
+| + CustomerOrder() :                                       |
+| + CustomerOrder(input_file : ifstream&) :                 |
+| + clearOrder() : void                                     |
+| + loadFromFile(input_file : ifstream&) : void             |
+| + CustomerOrder(id : int, qty : int) :                    |
+| + CustomerOrder(name : string, qty : int) :               |
+| + checkInventory(inv : Groceryinv&) : void                |
+| + updateInventory(inv : Groceryinv&) : void               |
+| + addLine(id : int, qty : int) : void                     |
+| + addLine(name : string, qty : int) : void                |
+| + subtotal() : double                                     |
+| + tax() : double                                          |
+| + grandTotal() : double                                   |
+| + printReceipt() : void                                   |
+| + writeReceiptToFile(filename : string) : void            |
+| + printToScreen() : void                                  |
+| + writeToOutfile(filename : string) : void                |
++-----------------------------------------------------------+

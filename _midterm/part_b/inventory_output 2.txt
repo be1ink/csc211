@@ -1,0 +1,9 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+\\\\\\\\\ INVENTORY ITEMS ///////////////
+Item ID    Item Name      Quantity     Price
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Subtotal: $0
+Tax (8.875%): $0
+Grand Total: $0
+--------------------------------------------------
