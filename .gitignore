@@ -1,14 +1,12 @@
-# macOS system files
+# macOS
 .DS_Store
 
-# VS Code settings
-.vscode/
+# Allow only these tracked file types anywhere
+*
+!**/*.cpp
+!**/*.h
+!**/*.txt
 
-# Build artifacts
-*.o
-*.out
-*.exe
-*.dSYM/
-
-.DS_Store
-xhello_world/
+# Still allow folders and the ignore file itself
+!.gitignore
+!*/
